@@ -49,7 +49,6 @@ public class SpringBootConsoleApplication
         System.out.println(calculateCheapestOperator.getCheapestOperatorForTheNumber("68123456789"));
         System.out.println(calculateCheapestOperator.getCheapestOperatorForTheNumber("4673212345"));
         System.out.println(calculateCheapestOperator.getCheapestOperatorForTheNumber("1111111111"));
-        System.out.println(calculateCheapestOperator.getCheapestOperatorForTheNumber("4673212345"));
         System.out.println(calculateCheapestOperator.getCheapestOperatorForTheNumber("4473212345"));
 
     }

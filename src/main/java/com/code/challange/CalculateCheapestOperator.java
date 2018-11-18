@@ -32,13 +32,13 @@ public class CalculateCheapestOperator {
         }
 
         double minPrice = -1;
-        String result = "Operator is not found for the number";
+        String result = "Operator is not found for the number: "+ number;
         for (Map.Entry<String, Double> entry : operatorNameAndPrice.entrySet()){
             String operatorName = entry.getKey();
             double price = entry.getValue();
             if (minPrice == -1 || price<minPrice){
                 minPrice = price;
-                result = "Operator "+ operatorName + " : $ " + minPrice +"/min";
+                result = "Operator "+ operatorName + " : $ " + minPrice +"/minute for the number: "+ number;
             }
         }
         return result;
